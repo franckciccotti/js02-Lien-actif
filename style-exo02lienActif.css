@@ -1,0 +1,23 @@
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.lien {
+  border: none;
+  outline: none;
+  background-color: lightgrey;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 10px;
+  margin-left: 10px;
+  color: black;
+}
+
+.actif,
+.lien:hover {
+  background-color: #666;
+  color: white;
+  border: solid 1px black;
+}
